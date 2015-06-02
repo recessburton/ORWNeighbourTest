@@ -1,0 +1,1094 @@
+Booting  0  at time  97836882231
+Booting  1  at time  73941254004
+Booting  2  at time  31281964673
+Booting  3  at time  27499365441
+Booting  4  at time  53638723807
+Booting  5  at time  24889329589
+Booting  6  at time  41810505698
+Booting  7  at time  19553256785
+Booting  8  at time  20343892865
+Booting  9  at time  31243259062
+Starting simulation.
+DEBUG (7): Booted @ 0:0:1.955325678.
+DEBUG (8): Booted @ 0:0:2.034389286.
+DEBUG (5): Booted @ 0:0:2.488932958.
+DEBUG (3): Booted @ 0:0:2.749936544.
+DEBUG (9): Booted @ 0:0:3.124325906.
+DEBUG (2): Booted @ 0:0:3.128196467.
+DEBUG (6): Booted @ 0:0:4.181050569.
+DEBUG (4): Booted @ 0:0:5.363872380.
+DEBUG (1): Booted @ 0:0:7.394125400.
+DEBUG (0): Booted @ 0:0:9.783688223.
+DEBUG (7): sending HELLO...
+DEBUG (6): received HELLO, sending ACK to 7...
+DEBUG (6): send ACK to 7 done.
+DEBUG (8): received HELLO, sending ACK to 7...
+DEBUG (8): send ACK to 7 done.
+DEBUG (9): received HELLO, sending ACK to 7...
+DEBUG (9): send ACK to 7 done.
+DEBUG (7): received ACK from 9, estimating
+DEBUG (7): neighbourSet sorts done.
+DEBUG (7): 
+HAS NEIGHBOURS:DEBUG (7): 9 with linkQ 0.083333
+DEBUG (7): 
+DEBUG (8): sending HELLO...
+DEBUG (3): received HELLO, sending ACK to 8...
+DEBUG (3): send ACK to 8 done.
+DEBUG (5): received HELLO, sending ACK to 8...
+DEBUG (5): send ACK to 8 done.
+DEBUG (6): received HELLO, sending ACK to 8...
+DEBUG (6): send ACK to 8 done.
+DEBUG (9): received HELLO, sending ACK to 8...
+DEBUG (9): send ACK to 8 done.
+DEBUG (7): received HELLO, sending ACK to 8...
+DEBUG (7): send ACK to 8 done.
+DEBUG (8): received ACK from 7, estimating
+DEBUG (8): neighbourSet sorts done.
+DEBUG (8): 
+HAS NEIGHBOURS:DEBUG (8): 7 with linkQ 0.083333
+DEBUG (8): 
+DEBUG (8): received ACK from 9, estimating
+DEBUG (8): neighbourSet sorts done.
+DEBUG (8): 
+HAS NEIGHBOURS:DEBUG (8): 7 with linkQ 0.083333
+DEBUG (8): 9 with linkQ 0.083333
+DEBUG (8): 
+DEBUG (5): sending HELLO...
+DEBUG (1): received HELLO, sending ACK to 5...
+DEBUG (1): send ACK to 5 done.
+DEBUG (6): received HELLO, sending ACK to 5...
+DEBUG (6): send ACK to 5 done.
+DEBUG (8): received HELLO, sending ACK to 5...
+DEBUG (8): send ACK to 5 done.
+DEBUG (4): received HELLO, sending ACK to 5...
+DEBUG (4): send ACK to 5 done.
+DEBUG (5): received ACK from 6, estimating
+DEBUG (5): neighbourSet sorts done.
+DEBUG (5): 
+HAS NEIGHBOURS:DEBUG (5): 6 with linkQ 0.083333
+DEBUG (5): 
+DEBUG (5): received ACK from 4, estimating
+DEBUG (5): neighbourSet sorts done.
+DEBUG (5): 
+HAS NEIGHBOURS:DEBUG (5): 6 with linkQ 0.083333
+DEBUG (5): 4 with linkQ 0.083333
+DEBUG (5): 
+DEBUG (5): received ACK from 8, estimating
+DEBUG (5): neighbourSet sorts done.
+DEBUG (5): 
+HAS NEIGHBOURS:DEBUG (5): 6 with linkQ 0.083333
+DEBUG (5): 4 with linkQ 0.083333
+DEBUG (5): 8 with linkQ 0.083333
+DEBUG (5): 
+DEBUG (3): sending HELLO...
+DEBUG (2): received HELLO, sending ACK to 3...
+DEBUG (2): send ACK to 3 done.
+DEBUG (4): received HELLO, sending ACK to 3...
+DEBUG (4): send ACK to 3 done.
+DEBUG (5): received HELLO, sending ACK to 3...
+DEBUG (5): send ACK to 3 done.
+DEBUG (6): received HELLO, sending ACK to 3...
+DEBUG (6): send ACK to 3 done.
+DEBUG (7): received HELLO, sending ACK to 3...
+DEBUG (7): send ACK to 3 done.
+DEBUG (3): received ACK from 7, estimating
+DEBUG (3): neighbourSet sorts done.
+DEBUG (3): 
+HAS NEIGHBOURS:DEBUG (3): 7 with linkQ 0.083333
+DEBUG (3): 
+DEBUG (3): received ACK from 5, estimating
+DEBUG (3): neighbourSet sorts done.
+DEBUG (3): 
+HAS NEIGHBOURS:DEBUG (3): 7 with linkQ 0.083333
+DEBUG (3): 5 with linkQ 0.083333
+DEBUG (3): 
+DEBUG (3): received ACK from 4, estimating
+DEBUG (3): neighbourSet sorts done.
+DEBUG (3): 
+HAS NEIGHBOURS:DEBUG (3): 7 with linkQ 0.083333
+DEBUG (3): 5 with linkQ 0.083333
+DEBUG (3): 4 with linkQ 0.083333
+DEBUG (3): 
+DEBUG (3): received ACK from 6, estimating
+DEBUG (3): neighbourSet sorts done.
+DEBUG (3): 
+HAS NEIGHBOURS:DEBUG (3): 7 with linkQ 0.083333
+DEBUG (3): 5 with linkQ 0.083333
+DEBUG (3): 4 with linkQ 0.083333
+DEBUG (3): 6 with linkQ 0.083333
+DEBUG (3): 
+DEBUG (3): received ACK from 2, estimating
+DEBUG (3): neighbourSet sorts done.
+DEBUG (3): 
+HAS NEIGHBOURS:DEBUG (3): 7 with linkQ 0.083333
+DEBUG (3): 5 with linkQ 0.083333
+DEBUG (3): 4 with linkQ 0.083333
+DEBUG (3): 6 with linkQ 0.083333
+DEBUG (3): 2 with linkQ 0.083333
+DEBUG (3): 
+DEBUG (7): sending HELLO...
+DEBUG (6): received HELLO, sending ACK to 7...
+DEBUG (6): send ACK to 7 done.
+DEBUG (8): received HELLO, sending ACK to 7...
+DEBUG (8): send ACK to 7 done.
+DEBUG (9): received HELLO, sending ACK to 7...
+DEBUG (9): send ACK to 7 done.
+DEBUG (7): received ACK from 6, estimating
+DEBUG (7): neighbourSet sorts done.
+DEBUG (7): 
+HAS NEIGHBOURS:DEBUG (7): 9 with linkQ 0.083333
+DEBUG (7): 6 with linkQ 0.076923
+DEBUG (7): 
+DEBUG (8): sending HELLO...
+DEBUG (5): received HELLO, sending ACK to 8...
+DEBUG (5): send ACK to 8 done.
+DEBUG (6): received HELLO, sending ACK to 8...
+DEBUG (6): send ACK to 8 done.
+DEBUG (9): received HELLO, sending ACK to 8...
+DEBUG (9): send ACK to 8 done.
+DEBUG (7): received HELLO, sending ACK to 8...
+DEBUG (7): send ACK to 8 done.
+DEBUG (8): received ACK from 6, estimating
+DEBUG (8): neighbourSet sorts done.
+DEBUG (8): 
+HAS NEIGHBOURS:DEBUG (8): 7 with linkQ 0.083333
+DEBUG (8): 9 with linkQ 0.083333
+DEBUG (8): 6 with linkQ 0.076923
+DEBUG (8): 
+DEBUG (8): received ACK from 5, estimating
+DEBUG (8): neighbourSet sorts done.
+DEBUG (8): 
+HAS NEIGHBOURS:DEBUG (8): 7 with linkQ 0.083333
+DEBUG (8): 9 with linkQ 0.083333
+DEBUG (8): 6 with linkQ 0.076923
+DEBUG (8): 5 with linkQ 0.076923
+DEBUG (8): 
+DEBUG (9): sending HELLO...
+DEBUG (2): sending HELLO...
+DEBUG (3): received HELLO, sending ACK to 2...
+DEBUG (3): send ACK to 2 done.
+DEBUG (4): received HELLO, sending ACK to 2...
+DEBUG (4): send ACK to 2 done.
+DEBUG (0): received HELLO, sending ACK to 2...
+DEBUG (0): send ACK to 2 done.
+DEBUG (1): received HELLO, sending ACK to 2...
+DEBUG (1): send ACK to 2 done.
+DEBUG (7): received HELLO, sending ACK to 9...
+DEBUG (7): send ACK to 9 done.
+DEBUG (8): received HELLO, sending ACK to 9...
+DEBUG (8): send ACK to 9 done.
+DEBUG (2): received ACK from 4, estimating
+DEBUG (2): neighbourSet sorts done.
+DEBUG (2): 
+HAS NEIGHBOURS:DEBUG (2): 4 with linkQ 0.083333
+DEBUG (2): 
+DEBUG (2): received ACK from 3, estimating
+DEBUG (2): neighbourSet sorts done.
+DEBUG (2): 
+HAS NEIGHBOURS:DEBUG (2): 4 with linkQ 0.083333
+DEBUG (2): 3 with linkQ 0.083333
+DEBUG (2): 
+DEBUG (9): received ACK from 8, estimating
+DEBUG (9): neighbourSet sorts done.
+DEBUG (9): 
+HAS NEIGHBOURS:DEBUG (9): 8 with linkQ 0.083333
+DEBUG (9): 
+DEBUG (2): received ACK from 1, estimating
+DEBUG (2): neighbourSet sorts done.
+DEBUG (2): 
+HAS NEIGHBOURS:DEBUG (2): 4 with linkQ 0.083333
+DEBUG (2): 3 with linkQ 0.083333
+DEBUG (2): 1 with linkQ 0.083333
+DEBUG (2): 
+DEBUG (2): received ACK from 0, estimating
+DEBUG (2): neighbourSet sorts done.
+DEBUG (2): 
+HAS NEIGHBOURS:DEBUG (2): 4 with linkQ 0.083333
+DEBUG (2): 3 with linkQ 0.083333
+DEBUG (2): 1 with linkQ 0.083333
+DEBUG (2): 0 with linkQ 0.083333
+DEBUG (2): 
+DEBUG (9): received ACK from 7, estimating
+DEBUG (9): neighbourSet sorts done.
+DEBUG (9): 
+HAS NEIGHBOURS:DEBUG (9): 8 with linkQ 0.083333
+DEBUG (9): 7 with linkQ 0.083333
+DEBUG (9): 
+DEBUG (5): sending HELLO...
+DEBUG (3): received HELLO, sending ACK to 5...
+DEBUG (3): send ACK to 5 done.
+DEBUG (6): received HELLO, sending ACK to 5...
+DEBUG (6): send ACK to 5 done.
+DEBUG (8): received HELLO, sending ACK to 5...
+DEBUG (8): send ACK to 5 done.
+DEBUG (4): received HELLO, sending ACK to 5...
+DEBUG (4): send ACK to 5 done.
+DEBUG (5): received ACK from 4, estimating
+DEBUG (5): neighbourSet sorts done.
+DEBUG (5): 
+HAS NEIGHBOURS:DEBUG (5): 4 with linkQ 0.153846
+DEBUG (5): 6 with linkQ 0.083333
+DEBUG (5): 8 with linkQ 0.083333
+DEBUG (5): 
+DEBUG (5): received ACK from 3, estimating
+DEBUG (5): neighbourSet sorts done.
+DEBUG (5): 
+HAS NEIGHBOURS:DEBUG (5): 4 with linkQ 0.153846
+DEBUG (5): 6 with linkQ 0.083333
+DEBUG (5): 8 with linkQ 0.083333
+DEBUG (5): 3 with linkQ 0.076923
+DEBUG (5): 
+DEBUG (3): sending HELLO...
+DEBUG (0): received HELLO, sending ACK to 3...
+DEBUG (0): send ACK to 3 done.
+DEBUG (2): received HELLO, sending ACK to 3...
+DEBUG (2): send ACK to 3 done.
+DEBUG (5): received HELLO, sending ACK to 3...
+DEBUG (5): send ACK to 3 done.
+DEBUG (7): received HELLO, sending ACK to 3...
+DEBUG (7): send ACK to 3 done.
+DEBUG (9): received HELLO, sending ACK to 3...
+DEBUG (9): send ACK to 3 done.
+DEBUG (3): received ACK from 2, estimating
+DEBUG (3): neighbourSet sorts done.
+DEBUG (3): 
+HAS NEIGHBOURS:DEBUG (3): 2 with linkQ 0.153846
+DEBUG (3): 5 with linkQ 0.083333
+DEBUG (3): 4 with linkQ 0.083333
+DEBUG (3): 6 with linkQ 0.083333
+DEBUG (3): 7 with linkQ 0.083333
+DEBUG (3): 
+DEBUG (3): received ACK from 5, estimating
+DEBUG (3): neighbourSet sorts done.
+DEBUG (3): 
+HAS NEIGHBOURS:DEBUG (3): 2 with linkQ 0.153846
+DEBUG (3): 5 with linkQ 0.153846
+DEBUG (3): 4 with linkQ 0.083333
+DEBUG (3): 6 with linkQ 0.083333
+DEBUG (3): 7 with linkQ 0.083333
+DEBUG (3): 
+DEBUG (7): sending HELLO...
+DEBUG (6): received HELLO, sending ACK to 7...
+DEBUG (6): send ACK to 7 done.
+DEBUG (8): received HELLO, sending ACK to 7...
+DEBUG (8): send ACK to 7 done.
+DEBUG (9): received HELLO, sending ACK to 7...
+DEBUG (9): send ACK to 7 done.
+DEBUG (7): received ACK from 6, estimating
+DEBUG (7): neighbourSet sorts done.
+DEBUG (7): 
+HAS NEIGHBOURS:DEBUG (7): 6 with linkQ 0.142857
+DEBUG (7): 9 with linkQ 0.083333
+DEBUG (7): 
+DEBUG (7): received ACK from 8, estimating
+DEBUG (7): neighbourSet sorts done.
+DEBUG (7): 
+HAS NEIGHBOURS:DEBUG (7): 6 with linkQ 0.142857
+DEBUG (7): 9 with linkQ 0.083333
+DEBUG (7): 8 with linkQ 0.071429
+DEBUG (7): 
+DEBUG (8): sending HELLO...
+DEBUG (6): received HELLO, sending ACK to 8...
+DEBUG (6): send ACK to 8 done.
+DEBUG (9): received HELLO, sending ACK to 8...
+DEBUG (9): send ACK to 8 done.
+DEBUG (0): received HELLO, sending ACK to 8...
+DEBUG (0): send ACK to 8 done.
+DEBUG (7): received HELLO, sending ACK to 8...
+DEBUG (7): send ACK to 8 done.
+DEBUG (8): received ACK from 6, estimating
+DEBUG (8): neighbourSet sorts done.
+DEBUG (8): 
+HAS NEIGHBOURS:DEBUG (8): 6 with linkQ 0.142857
+DEBUG (8): 9 with linkQ 0.083333
+DEBUG (8): 7 with linkQ 0.083333
+DEBUG (8): 5 with linkQ 0.076923
+DEBUG (8): 
+DEBUG (8): received ACK from 7, estimating
+DEBUG (8): neighbourSet sorts done.
+DEBUG (8): 
+HAS NEIGHBOURS:DEBUG (8): 6 with linkQ 0.142857
+DEBUG (8): 7 with linkQ 0.142857
+DEBUG (8): 9 with linkQ 0.083333
+DEBUG (8): 5 with linkQ 0.076923
+DEBUG (8): 
+DEBUG (8): received ACK from 9, estimating
+DEBUG (8): neighbourSet sorts done.
+DEBUG (8): 
+HAS NEIGHBOURS:DEBUG (8): 6 with linkQ 0.142857
+DEBUG (8): 7 with linkQ 0.142857
+DEBUG (8): 9 with linkQ 0.142857
+DEBUG (8): 5 with linkQ 0.076923
+DEBUG (8): 
+DEBUG (9): sending HELLO...
+DEBUG (2): sending HELLO...
+DEBUG (3): received HELLO, sending ACK to 2...
+DEBUG (3): send ACK to 2 done.
+DEBUG (4): received HELLO, sending ACK to 2...
+DEBUG (4): send ACK to 2 done.
+DEBUG (0): received HELLO, sending ACK to 2...
+DEBUG (0): send ACK to 2 done.
+DEBUG (1): received HELLO, sending ACK to 2...
+DEBUG (1): send ACK to 2 done.
+DEBUG (8): received HELLO, sending ACK to 2...
+DEBUG (8): send ACK to 2 done.
+DEBUG (6): received HELLO, sending ACK to 9...
+DEBUG (6): send ACK to 9 done.
+DEBUG (7): received HELLO, sending ACK to 9...
+DEBUG (7): send ACK to 9 done.
+DEBUG (8): received HELLO, sending ACK to 9...
+DEBUG (2): received ACK from 3, estimating
+DEBUG (2): neighbourSet sorts done.
+DEBUG (2): 
+HAS NEIGHBOURS:DEBUG (2): 3 with linkQ 0.153846
+DEBUG (2): 4 with linkQ 0.083333
+DEBUG (2): 1 with linkQ 0.083333
+DEBUG (2): 0 with linkQ 0.083333
+DEBUG (2): 
+DEBUG (2): received ACK from 0, estimating
+DEBUG (2): neighbourSet sorts done.
+DEBUG (2): 
+HAS NEIGHBOURS:DEBUG (2): 3 with linkQ 0.153846
+DEBUG (2): 0 with linkQ 0.153846
+DEBUG (2): 1 with linkQ 0.083333
+DEBUG (2): 4 with linkQ 0.083333
+DEBUG (2): 
+DEBUG (9): received ACK from 6, estimating
+DEBUG (9): neighbourSet sorts done.
+DEBUG (9): 
+HAS NEIGHBOURS:DEBUG (9): 8 with linkQ 0.083333
+DEBUG (9): 7 with linkQ 0.083333
+DEBUG (9): 6 with linkQ 0.076923
+DEBUG (9): 
+DEBUG (9): received ACK from 7, estimating
+DEBUG (9): neighbourSet sorts done.
+DEBUG (9): 
+HAS NEIGHBOURS:DEBUG (9): 7 with linkQ 0.153846
+DEBUG (9): 8 with linkQ 0.083333
+DEBUG (9): 6 with linkQ 0.076923
+DEBUG (9): 
+DEBUG (6): sending HELLO...
+DEBUG (2): received HELLO, sending ACK to 6...
+DEBUG (2): send ACK to 6 done.
+DEBUG (4): received HELLO, sending ACK to 6...
+DEBUG (4): send ACK to 6 done.
+DEBUG (5): received HELLO, sending ACK to 6...
+DEBUG (5): send ACK to 6 done.
+DEBUG (7): received HELLO, sending ACK to 6...
+DEBUG (7): send ACK to 6 done.
+DEBUG (9): received HELLO, sending ACK to 6...
+DEBUG (9): send ACK to 6 done.
+DEBUG (8): received HELLO, sending ACK to 6...
+DEBUG (8): send ACK to 6 done.
+DEBUG (6): received ACK from 4, estimating
+DEBUG (6): neighbourSet sorts done.
+DEBUG (6): 
+HAS NEIGHBOURS:DEBUG (6): 4 with linkQ 0.083333
+DEBUG (6): 
+DEBUG (6): received ACK from 7, estimating
+DEBUG (6): neighbourSet sorts done.
+DEBUG (6): 
+HAS NEIGHBOURS:DEBUG (6): 4 with linkQ 0.083333
+DEBUG (6): 7 with linkQ 0.083333
+DEBUG (6): 
+DEBUG (6): received ACK from 9, estimating
+DEBUG (6): neighbourSet sorts done.
+DEBUG (6): 
+HAS NEIGHBOURS:DEBUG (6): 4 with linkQ 0.083333
+DEBUG (6): 7 with linkQ 0.083333
+DEBUG (6): 9 with linkQ 0.083333
+DEBUG (6): 
+DEBUG (5): sending HELLO...
+DEBUG (0): received HELLO, sending ACK to 5...
+DEBUG (0): send ACK to 5 done.
+DEBUG (6): received HELLO, sending ACK to 5...
+DEBUG (6): send ACK to 5 done.
+DEBUG (3): received HELLO, sending ACK to 5...
+DEBUG (3): send ACK to 5 done.
+DEBUG (5): received ACK from 0, estimating
+DEBUG (5): neighbourSet sorts done.
+DEBUG (5): 
+HAS NEIGHBOURS:DEBUG (5): 4 with linkQ 0.153846
+DEBUG (5): 6 with linkQ 0.083333
+DEBUG (5): 8 with linkQ 0.083333
+DEBUG (5): 3 with linkQ 0.076923
+DEBUG (5): 0 with linkQ 0.071429
+DEBUG (5): 
+DEBUG (5): received ACK from 3, estimating
+DEBUG (5): neighbourSet sorts done.
+DEBUG (5): 
+HAS NEIGHBOURS:DEBUG (5): 4 with linkQ 0.153846
+DEBUG (5): 3 with linkQ 0.142857
+DEBUG (5): 8 with linkQ 0.083333
+DEBUG (5): 6 with linkQ 0.083333
+DEBUG (5): 0 with linkQ 0.071429
+DEBUG (5): 
+DEBUG (3): sending HELLO...
+DEBUG (2): received HELLO, sending ACK to 3...
+DEBUG (2): send ACK to 3 done.
+DEBUG (4): received HELLO, sending ACK to 3...
+DEBUG (4): send ACK to 3 done.
+DEBUG (5): received HELLO, sending ACK to 3...
+DEBUG (5): send ACK to 3 done.
+DEBUG (7): received HELLO, sending ACK to 3...
+DEBUG (7): send ACK to 3 done.
+DEBUG (3): received ACK from 2, estimating
+DEBUG (3): neighbourSet sorts done.
+DEBUG (3): 
+HAS NEIGHBOURS:DEBUG (3): 2 with linkQ 0.214286
+DEBUG (3): 5 with linkQ 0.153846
+DEBUG (3): 4 with linkQ 0.083333
+DEBUG (3): 6 with linkQ 0.083333
+DEBUG (3): 7 with linkQ 0.083333
+DEBUG (3): 
+DEBUG (3): received ACK from 4, estimating
+DEBUG (3): neighbourSet sorts done.
+DEBUG (3): 
+HAS NEIGHBOURS:DEBUG (3): 2 with linkQ 0.214286
+DEBUG (3): 5 with linkQ 0.153846
+DEBUG (3): 4 with linkQ 0.142857
+DEBUG (3): 6 with linkQ 0.083333
+DEBUG (3): 7 with linkQ 0.083333
+DEBUG (3): 
+DEBUG (3): received ACK from 5, estimating
+DEBUG (3): neighbourSet sorts done.
+DEBUG (3): 
+HAS NEIGHBOURS:DEBUG (3): 2 with linkQ 0.214286
+DEBUG (3): 5 with linkQ 0.214286
+DEBUG (3): 4 with linkQ 0.142857
+DEBUG (3): 6 with linkQ 0.083333
+DEBUG (3): 7 with linkQ 0.083333
+DEBUG (3): 
+DEBUG (7): sending HELLO...
+DEBUG (6): received HELLO, sending ACK to 7...
+DEBUG (6): send ACK to 7 done.
+DEBUG (8): received HELLO, sending ACK to 7...
+DEBUG (8): send ACK to 7 done.
+DEBUG (9): received HELLO, sending ACK to 7...
+DEBUG (9): send ACK to 7 done.
+DEBUG (7): received ACK from 8, estimating
+DEBUG (7): neighbourSet sorts done.
+DEBUG (7): 
+HAS NEIGHBOURS:DEBUG (7): 6 with linkQ 0.142857
+DEBUG (7): 8 with linkQ 0.133333
+DEBUG (7): 9 with linkQ 0.083333
+DEBUG (7): 
+DEBUG (7): received ACK from 9, estimating
+DEBUG (7): neighbourSet sorts done.
+DEBUG (7): 
+HAS NEIGHBOURS:DEBUG (7): 6 with linkQ 0.142857
+DEBUG (7): 8 with linkQ 0.133333
+DEBUG (7): 9 with linkQ 0.133333
+DEBUG (7): 
+DEBUG (8): sending HELLO...
+DEBUG (2): received HELLO, sending ACK to 8...
+DEBUG (2): send ACK to 8 done.
+DEBUG (5): received HELLO, sending ACK to 8...
+DEBUG (5): send ACK to 8 done.
+DEBUG (7): received HELLO, sending ACK to 8...
+DEBUG (7): send ACK to 8 done.
+DEBUG (9): received HELLO, sending ACK to 8...
+DEBUG (9): send ACK to 8 done.
+DEBUG (6): received HELLO, sending ACK to 8...
+DEBUG (6): send ACK to 8 done.
+DEBUG (8): received ACK from 9, estimating
+DEBUG (8): neighbourSet sorts done.
+DEBUG (8): 
+HAS NEIGHBOURS:DEBUG (8): 9 with linkQ 0.200000
+DEBUG (8): 7 with linkQ 0.142857
+DEBUG (8): 6 with linkQ 0.142857
+DEBUG (8): 5 with linkQ 0.076923
+DEBUG (8): 
+DEBUG (8): received ACK from 7, estimating
+DEBUG (8): neighbourSet sorts done.
+DEBUG (8): 
+HAS NEIGHBOURS:DEBUG (8): 9 with linkQ 0.200000
+DEBUG (8): 7 with linkQ 0.200000
+DEBUG (8): 6 with linkQ 0.142857
+DEBUG (8): 5 with linkQ 0.076923
+DEBUG (8): 
+DEBUG (8): received ACK from 5, estimating
+DEBUG (8): neighbourSet sorts done.
+DEBUG (8): 
+HAS NEIGHBOURS:DEBUG (8): 9 with linkQ 0.200000
+DEBUG (8): 7 with linkQ 0.200000
+DEBUG (8): 6 with linkQ 0.142857
+DEBUG (8): 5 with linkQ 0.133333
+DEBUG (8): 
+DEBUG (8): received ACK from 6, estimating
+DEBUG (8): neighbourSet sorts done.
+DEBUG (8): 
+HAS NEIGHBOURS:DEBUG (8): 9 with linkQ 0.200000
+DEBUG (8): 7 with linkQ 0.200000
+DEBUG (8): 6 with linkQ 0.200000
+DEBUG (8): 5 with linkQ 0.133333
+DEBUG (8): 
+DEBUG (9): sending HELLO...
+DEBUG (2): sending HELLO...
+DEBUG (6): received HELLO, sending ACK to 9...
+DEBUG (6): send ACK to 9 done.
+DEBUG (8): received HELLO, sending ACK to 9...
+DEBUG (8): send ACK to 9 done.
+DEBUG (0): received HELLO, sending ACK to 9...
+DEBUG (0): send ACK to 9 done.
+DEBUG (7): received HELLO, sending ACK to 9...
+DEBUG (7): send ACK to 9 done.
+DEBUG (1): received HELLO, sending ACK to 2...
+DEBUG (1): send ACK to 2 done.
+DEBUG (0): received HELLO, sending ACK to 2...
+DEBUG (3): received HELLO, sending ACK to 2...
+DEBUG (3): send ACK to 2 done.
+DEBUG (9): received ACK from 8, estimating
+DEBUG (9): neighbourSet sorts done.
+DEBUG (9): 
+HAS NEIGHBOURS:DEBUG (9): 7 with linkQ 0.153846
+DEBUG (9): 8 with linkQ 0.142857
+DEBUG (9): 6 with linkQ 0.076923
+DEBUG (9): 
+DEBUG (2): received ACK from 3, estimating
+DEBUG (2): neighbourSet sorts done.
+DEBUG (2): 
+HAS NEIGHBOURS:DEBUG (2): 3 with linkQ 0.214286
+DEBUG (2): 0 with linkQ 0.153846
+DEBUG (2): 1 with linkQ 0.083333
+DEBUG (2): 4 with linkQ 0.083333
+DEBUG (2): 
+DEBUG (9): received ACK from 6, estimating
+DEBUG (9): neighbourSet sorts done.
+DEBUG (9): 
+HAS NEIGHBOURS:DEBUG (9): 7 with linkQ 0.153846
+DEBUG (9): 8 with linkQ 0.142857
+DEBUG (9): 6 with linkQ 0.142857
+DEBUG (9): 
+DEBUG (6): sending HELLO...
+DEBUG (5): received HELLO, sending ACK to 6...
+DEBUG (5): send ACK to 6 done.
+DEBUG (7): received HELLO, sending ACK to 6...
+DEBUG (7): send ACK to 6 done.
+DEBUG (2): received HELLO, sending ACK to 6...
+DEBUG (2): send ACK to 6 done.
+DEBUG (8): received HELLO, sending ACK to 6...
+DEBUG (8): send ACK to 6 done.
+DEBUG (4): received HELLO, sending ACK to 6...
+DEBUG (4): send ACK to 6 done.
+DEBUG (9): received HELLO, sending ACK to 6...
+DEBUG (9): send ACK to 6 done.
+DEBUG (6): received ACK from 7, estimating
+DEBUG (6): neighbourSet sorts done.
+DEBUG (6): 
+HAS NEIGHBOURS:DEBUG (6): 7 with linkQ 0.153846
+DEBUG (6): 4 with linkQ 0.083333
+DEBUG (6): 9 with linkQ 0.083333
+DEBUG (6): 
+DEBUG (6): received ACK from 4, estimating
+DEBUG (6): neighbourSet sorts done.
+DEBUG (6): 
+HAS NEIGHBOURS:DEBUG (6): 7 with linkQ 0.153846
+DEBUG (6): 4 with linkQ 0.153846
+DEBUG (6): 9 with linkQ 0.083333
+DEBUG (6): 
+DEBUG (6): received ACK from 9, estimating
+DEBUG (6): neighbourSet sorts done.
+DEBUG (6): 
+HAS NEIGHBOURS:DEBUG (6): 7 with linkQ 0.153846
+DEBUG (6): 4 with linkQ 0.153846
+DEBUG (6): 9 with linkQ 0.153846
+DEBUG (6): 
+DEBUG (6): received ACK from 2, estimating
+DEBUG (6): neighbourSet sorts done.
+DEBUG (6): 
+HAS NEIGHBOURS:DEBUG (6): 7 with linkQ 0.153846
+DEBUG (6): 4 with linkQ 0.153846
+DEBUG (6): 9 with linkQ 0.153846
+DEBUG (6): 2 with linkQ 0.076923
+DEBUG (6): 
+DEBUG (4): sending HELLO...
+DEBUG (2): received HELLO, sending ACK to 4...
+DEBUG (2): send ACK to 4 done.
+DEBUG (3): received HELLO, sending ACK to 4...
+DEBUG (3): send ACK to 4 done.
+DEBUG (5): received HELLO, sending ACK to 4...
+DEBUG (5): send ACK to 4 done.
+DEBUG (6): received HELLO, sending ACK to 4...
+DEBUG (6): send ACK to 4 done.
+DEBUG (4): received ACK from 3, estimating
+DEBUG (4): neighbourSet sorts done.
+DEBUG (4): 
+HAS NEIGHBOURS:DEBUG (4): 3 with linkQ 0.083333
+DEBUG (4): 
+DEBUG (4): received ACK from 2, estimating
+DEBUG (4): neighbourSet sorts done.
+DEBUG (4): 
+HAS NEIGHBOURS:DEBUG (4): 3 with linkQ 0.083333
+DEBUG (4): 2 with linkQ 0.083333
+DEBUG (4): 
+DEBUG (5): sending HELLO...
+DEBUG (1): received HELLO, sending ACK to 5...
+DEBUG (1): send ACK to 5 done.
+DEBUG (3): received HELLO, sending ACK to 5...
+DEBUG (3): send ACK to 5 done.
+DEBUG (6): received HELLO, sending ACK to 5...
+DEBUG (6): send ACK to 5 done.
+DEBUG (8): received HELLO, sending ACK to 5...
+DEBUG (8): send ACK to 5 done.
+DEBUG (4): received HELLO, sending ACK to 5...
+DEBUG (4): send ACK to 5 done.
+DEBUG (5): received ACK from 3, estimating
+DEBUG (5): neighbourSet sorts done.
+DEBUG (5): 
+HAS NEIGHBOURS:DEBUG (5): 3 with linkQ 0.200000
+DEBUG (5): 4 with linkQ 0.153846
+DEBUG (5): 8 with linkQ 0.083333
+DEBUG (5): 6 with linkQ 0.083333
+DEBUG (5): 0 with linkQ 0.071429
+DEBUG (5): 
+DEBUG (5): received ACK from 4, estimating
+DEBUG (5): neighbourSet sorts done.
+DEBUG (5): 
+HAS NEIGHBOURS:DEBUG (5): 3 with linkQ 0.200000
+DEBUG (5): 4 with linkQ 0.200000
+DEBUG (5): 8 with linkQ 0.083333
+DEBUG (5): 6 with linkQ 0.083333
+DEBUG (5): 0 with linkQ 0.071429
+DEBUG (5): 
+DEBUG (5): received ACK from 6, estimating
+DEBUG (5): neighbourSet sorts done.
+DEBUG (5): 
+HAS NEIGHBOURS:DEBUG (5): 3 with linkQ 0.200000
+DEBUG (5): 4 with linkQ 0.200000
+DEBUG (5): 6 with linkQ 0.133333
+DEBUG (5): 8 with linkQ 0.083333
+DEBUG (5): 0 with linkQ 0.071429
+DEBUG (5): 
+DEBUG (3): sending HELLO...
+DEBUG (1): received HELLO, sending ACK to 3...
+DEBUG (1): send ACK to 3 done.
+DEBUG (2): received HELLO, sending ACK to 3...
+DEBUG (2): send ACK to 3 done.
+DEBUG (5): received HELLO, sending ACK to 3...
+DEBUG (5): send ACK to 3 done.
+DEBUG (7): received HELLO, sending ACK to 3...
+DEBUG (7): send ACK to 3 done.
+DEBUG (3): received ACK from 2, estimating
+DEBUG (3): neighbourSet sorts done.
+DEBUG (3): 
+HAS NEIGHBOURS:DEBUG (3): 2 with linkQ 0.266667
+DEBUG (3): 5 with linkQ 0.214286
+DEBUG (3): 4 with linkQ 0.142857
+DEBUG (3): 6 with linkQ 0.083333
+DEBUG (3): 7 with linkQ 0.083333
+DEBUG (3): 
+DEBUG (9): sending HELLO...
+DEBUG (2): sending HELLO...
+DEBUG (6): received HELLO, sending ACK to 9...
+DEBUG (6): send ACK to 9 done.
+DEBUG (8): received HELLO, sending ACK to 9...
+DEBUG (8): send ACK to 9 done.
+DEBUG (1): received HELLO, sending ACK to 2...
+DEBUG (1): send ACK to 2 done.
+DEBUG (3): received HELLO, sending ACK to 2...
+DEBUG (3): send ACK to 2 done.
+DEBUG (4): received HELLO, sending ACK to 2...
+DEBUG (4): send ACK to 2 done.
+DEBUG (0): received HELLO, sending ACK to 2...
+DEBUG (0): send ACK to 2 done.
+DEBUG (9): received ACK from 6, estimating
+DEBUG (9): neighbourSet sorts done.
+DEBUG (9): 
+HAS NEIGHBOURS:DEBUG (9): 6 with linkQ 0.200000
+DEBUG (9): 8 with linkQ 0.142857
+DEBUG (9): 7 with linkQ 0.153846
+DEBUG (9): 
+DEBUG (2): received ACK from 3, estimating
+DEBUG (2): neighbourSet sorts done.
+DEBUG (2): 
+HAS NEIGHBOURS:DEBUG (2): 3 with linkQ 0.266667
+DEBUG (2): 0 with linkQ 0.153846
+DEBUG (2): 1 with linkQ 0.083333
+DEBUG (2): 4 with linkQ 0.083333
+DEBUG (2): 
+DEBUG (9): received ACK from 8, estimating
+DEBUG (9): neighbourSet sorts done.
+DEBUG (9): 
+HAS NEIGHBOURS:DEBUG (9): 6 with linkQ 0.200000
+DEBUG (9): 8 with linkQ 0.200000
+DEBUG (9): 7 with linkQ 0.153846
+DEBUG (9): 
+DEBUG (2): received ACK from 1, estimating
+DEBUG (2): neighbourSet sorts done.
+DEBUG (2): 
+HAS NEIGHBOURS:DEBUG (2): 3 with linkQ 0.266667
+DEBUG (2): 0 with linkQ 0.153846
+DEBUG (2): 1 with linkQ 0.133333
+DEBUG (2): 4 with linkQ 0.083333
+DEBUG (2): 
+DEBUG (2): received ACK from 4, estimating
+DEBUG (2): neighbourSet sorts done.
+DEBUG (2): 
+HAS NEIGHBOURS:DEBUG (2): 3 with linkQ 0.266667
+DEBUG (2): 0 with linkQ 0.153846
+DEBUG (2): 1 with linkQ 0.133333
+DEBUG (2): 4 with linkQ 0.133333
+DEBUG (2): 
+DEBUG (2): received ACK from 0, estimating
+DEBUG (2): neighbourSet sorts done.
+DEBUG (2): 
+HAS NEIGHBOURS:DEBUG (2): 3 with linkQ 0.266667
+DEBUG (2): 0 with linkQ 0.200000
+DEBUG (2): 1 with linkQ 0.133333
+DEBUG (2): 4 with linkQ 0.133333
+DEBUG (2): 
+DEBUG (6): sending HELLO...
+DEBUG (2): received HELLO, sending ACK to 6...
+DEBUG (2): send ACK to 6 done.
+DEBUG (4): received HELLO, sending ACK to 6...
+DEBUG (4): send ACK to 6 done.
+DEBUG (5): received HELLO, sending ACK to 6...
+DEBUG (5): send ACK to 6 done.
+DEBUG (8): received HELLO, sending ACK to 6...
+DEBUG (8): send ACK to 6 done.
+DEBUG (9): received HELLO, sending ACK to 6...
+DEBUG (9): send ACK to 6 done.
+DEBUG (7): received HELLO, sending ACK to 6...
+DEBUG (7): send ACK to 6 done.
+DEBUG (6): received ACK from 8, estimating
+DEBUG (6): neighbourSet sorts done.
+DEBUG (6): 
+HAS NEIGHBOURS:DEBUG (6): 7 with linkQ 0.153846
+DEBUG (6): 4 with linkQ 0.153846
+DEBUG (6): 9 with linkQ 0.153846
+DEBUG (6): 2 with linkQ 0.076923
+DEBUG (6): 8 with linkQ 0.071429
+DEBUG (6): 
+DEBUG (6): received ACK from 5, estimating
+DEBUG (6): neighbourSet sorts done.
+DEBUG (6): 
+HAS NEIGHBOURS:DEBUG (6): 7 with linkQ 0.153846
+DEBUG (6): 4 with linkQ 0.153846
+DEBUG (6): 9 with linkQ 0.153846
+DEBUG (6): 2 with linkQ 0.076923
+DEBUG (6): 8 with linkQ 0.071429
+DEBUG (6): 5 with linkQ 0.071429
+DEBUG (6): 
+DEBUG (6): received ACK from 7, estimating
+DEBUG (6): neighbourSet sorts done.
+DEBUG (6): 
+HAS NEIGHBOURS:DEBUG (6): 7 with linkQ 0.214286
+DEBUG (6): 4 with linkQ 0.153846
+DEBUG (6): 9 with linkQ 0.153846
+DEBUG (6): 2 with linkQ 0.076923
+DEBUG (6): 8 with linkQ 0.071429
+DEBUG (6): 5 with linkQ 0.071429
+DEBUG (6): 
+DEBUG (4): sending HELLO...
+DEBUG (2): received HELLO, sending ACK to 4...
+DEBUG (2): send ACK to 4 done.
+DEBUG (3): received HELLO, sending ACK to 4...
+DEBUG (3): send ACK to 4 done.
+DEBUG (5): received HELLO, sending ACK to 4...
+DEBUG (5): send ACK to 4 done.
+DEBUG (6): received HELLO, sending ACK to 4...
+DEBUG (6): send ACK to 4 done.
+DEBUG (4): received ACK from 3, estimating
+DEBUG (4): neighbourSet sorts done.
+DEBUG (4): 
+HAS NEIGHBOURS:DEBUG (4): 3 with linkQ 0.153846
+DEBUG (4): 2 with linkQ 0.083333
+DEBUG (4): 
+DEBUG (4): received ACK from 6, estimating
+DEBUG (4): neighbourSet sorts done.
+DEBUG (4): 
+HAS NEIGHBOURS:DEBUG (4): 3 with linkQ 0.153846
+DEBUG (4): 2 with linkQ 0.083333
+DEBUG (4): 6 with linkQ 0.076923
+DEBUG (4): 
+DEBUG (4): received ACK from 5, estimating
+DEBUG (4): neighbourSet sorts done.
+DEBUG (4): 
+HAS NEIGHBOURS:DEBUG (4): 3 with linkQ 0.153846
+DEBUG (4): 2 with linkQ 0.083333
+DEBUG (4): 6 with linkQ 0.076923
+DEBUG (4): 5 with linkQ 0.076923
+DEBUG (4): 
+DEBUG (6): sending HELLO...
+DEBUG (1): received HELLO, sending ACK to 6...
+DEBUG (1): send ACK to 6 done.
+DEBUG (2): received HELLO, sending ACK to 6...
+DEBUG (2): send ACK to 6 done.
+DEBUG (4): received HELLO, sending ACK to 6...
+DEBUG (4): send ACK to 6 done.
+DEBUG (5): received HELLO, sending ACK to 6...
+DEBUG (5): send ACK to 6 done.
+DEBUG (8): received HELLO, sending ACK to 6...
+DEBUG (8): send ACK to 6 done.
+DEBUG (7): received HELLO, sending ACK to 6...
+DEBUG (7): send ACK to 6 done.
+DEBUG (6): received ACK from 4, estimating
+DEBUG (6): neighbourSet sorts done.
+DEBUG (6): 
+HAS NEIGHBOURS:DEBUG (6): 7 with linkQ 0.214286
+DEBUG (6): 4 with linkQ 0.200000
+DEBUG (6): 9 with linkQ 0.153846
+DEBUG (6): 2 with linkQ 0.076923
+DEBUG (6): 8 with linkQ 0.071429
+DEBUG (6): 5 with linkQ 0.071429
+DEBUG (6): 
+DEBUG (6): received ACK from 5, estimating
+DEBUG (6): neighbourSet sorts done.
+DEBUG (6): 
+HAS NEIGHBOURS:DEBUG (6): 7 with linkQ 0.214286
+DEBUG (6): 4 with linkQ 0.200000
+DEBUG (6): 9 with linkQ 0.153846
+DEBUG (6): 5 with linkQ 0.133333
+DEBUG (6): 8 with linkQ 0.071429
+DEBUG (6): 2 with linkQ 0.076923
+DEBUG (6): 
+DEBUG (6): received ACK from 8, estimating
+DEBUG (6): neighbourSet sorts done.
+DEBUG (6): 
+HAS NEIGHBOURS:DEBUG (6): 7 with linkQ 0.214286
+DEBUG (6): 4 with linkQ 0.200000
+DEBUG (6): 9 with linkQ 0.153846
+DEBUG (6): 5 with linkQ 0.133333
+DEBUG (6): 8 with linkQ 0.133333
+DEBUG (6): 2 with linkQ 0.076923
+DEBUG (6): 
+DEBUG (6): received ACK from 2, estimating
+DEBUG (6): neighbourSet sorts done.
+DEBUG (6): 
+HAS NEIGHBOURS:DEBUG (6): 7 with linkQ 0.214286
+DEBUG (6): 4 with linkQ 0.200000
+DEBUG (6): 9 with linkQ 0.153846
+DEBUG (6): 5 with linkQ 0.133333
+DEBUG (6): 8 with linkQ 0.133333
+DEBUG (6): 2 with linkQ 0.133333
+DEBUG (6): 
+DEBUG (6): received ACK from 7, estimating
+DEBUG (6): neighbourSet sorts done.
+DEBUG (6): 
+HAS NEIGHBOURS:DEBUG (6): 7 with linkQ 0.266667
+DEBUG (6): 4 with linkQ 0.200000
+DEBUG (6): 9 with linkQ 0.153846
+DEBUG (6): 5 with linkQ 0.133333
+DEBUG (6): 8 with linkQ 0.133333
+DEBUG (6): 2 with linkQ 0.133333
+DEBUG (6): 
+DEBUG (4): sending HELLO...
+DEBUG (0): received HELLO, sending ACK to 4...
+DEBUG (0): send ACK to 4 done.
+DEBUG (2): received HELLO, sending ACK to 4...
+DEBUG (2): send ACK to 4 done.
+DEBUG (3): received HELLO, sending ACK to 4...
+DEBUG (3): send ACK to 4 done.
+DEBUG (5): received HELLO, sending ACK to 4...
+DEBUG (5): send ACK to 4 done.
+DEBUG (6): received HELLO, sending ACK to 4...
+DEBUG (6): send ACK to 4 done.
+DEBUG (7): received HELLO, sending ACK to 4...
+DEBUG (7): send ACK to 4 done.
+DEBUG (4): received ACK from 6, estimating
+DEBUG (4): neighbourSet sorts done.
+DEBUG (4): 
+HAS NEIGHBOURS:DEBUG (4): 3 with linkQ 0.153846
+DEBUG (4): 6 with linkQ 0.142857
+DEBUG (4): 2 with linkQ 0.083333
+DEBUG (4): 5 with linkQ 0.076923
+DEBUG (4): 
+DEBUG (4): received ACK from 2, estimating
+DEBUG (4): neighbourSet sorts done.
+DEBUG (4): 
+HAS NEIGHBOURS:DEBUG (4): 3 with linkQ 0.153846
+DEBUG (4): 6 with linkQ 0.142857
+DEBUG (4): 2 with linkQ 0.142857
+DEBUG (4): 5 with linkQ 0.076923
+DEBUG (4): 
+DEBUG (4): received ACK from 3, estimating
+DEBUG (4): neighbourSet sorts done.
+DEBUG (4): 
+HAS NEIGHBOURS:DEBUG (4): 3 with linkQ 0.214286
+DEBUG (4): 6 with linkQ 0.142857
+DEBUG (4): 2 with linkQ 0.142857
+DEBUG (4): 5 with linkQ 0.076923
+DEBUG (4): 
+DEBUG (4): received ACK from 5, estimating
+DEBUG (4): neighbourSet sorts done.
+DEBUG (4): 
+HAS NEIGHBOURS:DEBUG (4): 3 with linkQ 0.214286
+DEBUG (4): 6 with linkQ 0.142857
+DEBUG (4): 2 with linkQ 0.142857
+DEBUG (4): 5 with linkQ 0.142857
+DEBUG (4): 
+DEBUG (1): sending HELLO...
+DEBUG (0): received HELLO, sending ACK to 1...
+DEBUG (0): send ACK to 1 done.
+DEBUG (1): received ACK from 0, estimating
+DEBUG (1): neighbourSet sorts done.
+DEBUG (1): 
+HAS NEIGHBOURS:DEBUG (1): 0 with linkQ 0.083333
+DEBUG (1): 
+DEBUG (4): sending HELLO...
+DEBUG (2): received HELLO, sending ACK to 4...
+DEBUG (2): send ACK to 4 done.
+DEBUG (3): received HELLO, sending ACK to 4...
+DEBUG (3): send ACK to 4 done.
+DEBUG (5): received HELLO, sending ACK to 4...
+DEBUG (5): send ACK to 4 done.
+DEBUG (6): received HELLO, sending ACK to 4...
+DEBUG (6): send ACK to 4 done.
+DEBUG (8): received HELLO, sending ACK to 4...
+DEBUG (8): send ACK to 4 done.
+DEBUG (9): received HELLO, sending ACK to 4...
+DEBUG (9): send ACK to 4 done.
+DEBUG (4): received ACK from 2, estimating
+DEBUG (4): neighbourSet sorts done.
+DEBUG (4): 
+HAS NEIGHBOURS:DEBUG (4): 3 with linkQ 0.214286
+DEBUG (4): 2 with linkQ 0.200000
+DEBUG (4): 6 with linkQ 0.142857
+DEBUG (4): 5 with linkQ 0.142857
+DEBUG (4): 
+DEBUG (4): received ACK from 5, estimating
+DEBUG (4): neighbourSet sorts done.
+DEBUG (4): 
+HAS NEIGHBOURS:DEBUG (4): 3 with linkQ 0.214286
+DEBUG (4): 2 with linkQ 0.200000
+DEBUG (4): 5 with linkQ 0.200000
+DEBUG (4): 6 with linkQ 0.142857
+DEBUG (4): 
+DEBUG (1): sending HELLO...
+DEBUG (0): received HELLO, sending ACK to 1...
+DEBUG (0): send ACK to 1 done.
+DEBUG (2): received HELLO, sending ACK to 1...
+DEBUG (2): send ACK to 1 done.
+DEBUG (1): received ACK from 0, estimating
+DEBUG (1): neighbourSet sorts done.
+DEBUG (1): 
+HAS NEIGHBOURS:DEBUG (1): 0 with linkQ 0.153846
+DEBUG (1): 
+DEBUG (1): sending HELLO...
+DEBUG (0): received HELLO, sending ACK to 1...
+DEBUG (0): send ACK to 1 done.
+DEBUG (2): received HELLO, sending ACK to 1...
+DEBUG (2): send ACK to 1 done.
+DEBUG (3): received HELLO, sending ACK to 1...
+DEBUG (3): send ACK to 1 done.
+DEBUG (8): received HELLO, sending ACK to 1...
+DEBUG (8): send ACK to 1 done.
+DEBUG (4): received HELLO, sending ACK to 1...
+DEBUG (4): send ACK to 1 done.
+DEBUG (1): received ACK from 2, estimating
+DEBUG (1): neighbourSet sorts done.
+DEBUG (1): 
+HAS NEIGHBOURS:DEBUG (1): 0 with linkQ 0.153846
+DEBUG (1): 2 with linkQ 0.071429
+DEBUG (1): 
+DEBUG (1): received ACK from 0, estimating
+DEBUG (1): neighbourSet sorts done.
+DEBUG (1): 
+HAS NEIGHBOURS:DEBUG (1): 0 with linkQ 0.214286
+DEBUG (1): 2 with linkQ 0.071429
+DEBUG (1): 
+DEBUG (0): sending HELLO...
+DEBUG (1): received HELLO, sending ACK to 0...
+DEBUG (1): send ACK to 0 done.
+DEBUG (2): received HELLO, sending ACK to 0...
+DEBUG (2): send ACK to 0 done.
+DEBUG (5): received HELLO, sending ACK to 0...
+DEBUG (5): send ACK to 0 done.
+DEBUG (6): received HELLO, sending ACK to 0...
+DEBUG (6): send ACK to 0 done.
+DEBUG (0): received ACK from 1, estimating
+DEBUG (0): neighbourSet sorts done.
+DEBUG (0): 
+HAS NEIGHBOURS:DEBUG (0): 1 with linkQ 0.083333
+DEBUG (0): 
+DEBUG (0): received ACK from 2, estimating
+DEBUG (0): neighbourSet sorts done.
+DEBUG (0): 
+HAS NEIGHBOURS:DEBUG (0): 1 with linkQ 0.083333
+DEBUG (0): 2 with linkQ 0.083333
+DEBUG (0): 
+DEBUG (1): sending HELLO...
+DEBUG (0): received HELLO, sending ACK to 1...
+DEBUG (0): send ACK to 1 done.
+DEBUG (2): received HELLO, sending ACK to 1...
+DEBUG (2): send ACK to 1 done.
+DEBUG (6): received HELLO, sending ACK to 1...
+DEBUG (6): send ACK to 1 done.
+DEBUG (9): received HELLO, sending ACK to 1...
+DEBUG (9): send ACK to 1 done.
+DEBUG (1): received ACK from 2, estimating
+DEBUG (1): neighbourSet sorts done.
+DEBUG (1): 
+HAS NEIGHBOURS:DEBUG (1): 0 with linkQ 0.214286
+DEBUG (1): 2 with linkQ 0.133333
+DEBUG (1): 
+DEBUG (0): sending HELLO...
+DEBUG (1): received HELLO, sending ACK to 0...
+DEBUG (1): send ACK to 0 done.
+DEBUG (2): received HELLO, sending ACK to 0...
+DEBUG (2): send ACK to 0 done.
+DEBUG (4): received HELLO, sending ACK to 0...
+DEBUG (4): send ACK to 0 done.
+DEBUG (5): received HELLO, sending ACK to 0...
+DEBUG (5): send ACK to 0 done.
+DEBUG (0): received ACK from 4, estimating
+DEBUG (0): neighbourSet sorts done.
+DEBUG (0): 
+HAS NEIGHBOURS:DEBUG (0): 1 with linkQ 0.083333
+DEBUG (0): 2 with linkQ 0.083333
+DEBUG (0): 4 with linkQ 0.076923
+DEBUG (0): 
+DEBUG (0): received ACK from 2, estimating
+DEBUG (0): neighbourSet sorts done.
+DEBUG (0): 
+HAS NEIGHBOURS:DEBUG (0): 2 with linkQ 0.153846
+DEBUG (0): 1 with linkQ 0.083333
+DEBUG (0): 4 with linkQ 0.076923
+DEBUG (0): 
+DEBUG (0): received ACK from 1, estimating
+DEBUG (0): neighbourSet sorts done.
+DEBUG (0): 
+HAS NEIGHBOURS:DEBUG (0): 2 with linkQ 0.153846
+DEBUG (0): 1 with linkQ 0.153846
+DEBUG (0): 4 with linkQ 0.076923
+DEBUG (0): 
+DEBUG (0): sending HELLO...
+DEBUG (1): received HELLO, sending ACK to 0...
+DEBUG (1): send ACK to 0 done.
+DEBUG (2): received HELLO, sending ACK to 0...
+DEBUG (2): send ACK to 0 done.
+DEBUG (4): received HELLO, sending ACK to 0...
+DEBUG (4): send ACK to 0 done.
+DEBUG (5): received HELLO, sending ACK to 0...
+DEBUG (5): send ACK to 0 done.
+DEBUG (6): received HELLO, sending ACK to 0...
+DEBUG (6): send ACK to 0 done.
+DEBUG (0): received ACK from 5, estimating
+DEBUG (0): neighbourSet sorts done.
+DEBUG (0): 
+HAS NEIGHBOURS:DEBUG (0): 2 with linkQ 0.153846
+DEBUG (0): 1 with linkQ 0.153846
+DEBUG (0): 4 with linkQ 0.076923
+DEBUG (0): 5 with linkQ 0.071429
+DEBUG (0): 
+DEBUG (0): sending HELLO...
+DEBUG (1): received HELLO, sending ACK to 0...
+DEBUG (1): send ACK to 0 done.
+DEBUG (2): received HELLO, sending ACK to 0...
+DEBUG (2): send ACK to 0 done.
+DEBUG (4): received HELLO, sending ACK to 0...
+DEBUG (4): send ACK to 0 done.
+DEBUG (5): received HELLO, sending ACK to 0...
+DEBUG (5): send ACK to 0 done.
+DEBUG (6): received HELLO, sending ACK to 0...
+DEBUG (6): send ACK to 0 done.
+DEBUG (0): received ACK from 4, estimating
+DEBUG (0): neighbourSet sorts done.
+DEBUG (0): 
+HAS NEIGHBOURS:DEBUG (0): 2 with linkQ 0.153846
+DEBUG (0): 1 with linkQ 0.153846
+DEBUG (0): 4 with linkQ 0.133333
+DEBUG (0): 5 with linkQ 0.071429
+DEBUG (0): 
+Completed simulation.
