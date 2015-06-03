@@ -47,11 +47,12 @@ print "Starting simulation."
 t.addChannel("NodesInfo", sys.stdout)
 t.addChannel("AMInfo", sys.stdout)
 t.addChannel("Neighbour", sys.stdout)
+t.addChannel("CTPInfo", sys.stdout)
 #t.addChannel("App", sys.stdout)
 #t.addChannel("Traffic", sys.stdout)
 #t.addChannel("Acks", sys.stdout)
 
-while (t.time() < 10000 * t.ticksPerSecond()):
+while (t.time() < 50 * t.ticksPerSecond()):
   t.runNextEvent()
 
 print "Completed simulation."

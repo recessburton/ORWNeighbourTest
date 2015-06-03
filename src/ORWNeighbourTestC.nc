@@ -27,17 +27,24 @@ module ORWNeighbourTestC {
 	uses interface Boot;
 	uses interface Leds;
 	uses interface Timer<TMilli> as Timer0;
+	uses interface Timer<TMilli> as Timer1;
 	uses interface Packet;
 	uses interface AMPacket;
 	uses interface AMSend;
 	uses interface Receive;
 	uses interface SplitControl as AMControl;
+	uses interface SplitControl as RadioControl;
+	uses interface StdControl as RoutingControl;
+	uses interface Send;
+	uses interface RootControl;
+	uses interface Receive as CTPReceive;
 }
 
 implementation {
 
 	NeighbourUnit neighbourSet[10*MAX_NEIGHBOUR_NUM];
-	message_t pkt;
+	nx_NeighbourUnit nx_neighbourSet[MAX_NEIGHBOUR_NUM];
+	message_t pkt,packet;
 	volatile bool busy = FALSE;
 	uint8_t helloMsgCount = 0;
 	uint8_t neighbourNumIndex = 0;//邻居数目，>从0开始!<<<<<<
@@ -46,6 +53,7 @@ implementation {
 	event void Boot.booted() {
 		dbg("NodesInfo", "Booted @ %s.\n", sim_time_string());
 		call AMControl.start();
+		call RadioControl.start();
 	}
 
 	event void AMControl.startDone(error_t err) {
@@ -66,8 +74,8 @@ implementation {
 			if(btrpkt == NULL) {
 				return;
 			}
-			btrpkt->dstid = 0xFFFF;
-			btrpkt->sourceid = TOS_NODE_ID;
+			btrpkt->dstid = 0xFF;
+			btrpkt->sourceid = (nx_int8_t)TOS_NODE_ID;
 			if(call AMSend.send(AM_BROADCAST_ADDR, &pkt, sizeof(NeighbourMsg)) == SUCCESS) {
 				busy = TRUE;
 				dbg("AMInfo","sending HELLO...\n");
@@ -82,8 +90,11 @@ implementation {
 		}
 		else if(helloMsgCount <= 10)
 			helloMsgCount ++;
-		else
+		else{
 			call Timer0.stop();
+			if(TOS_NODE_ID != 0)	//非基站的其它节点启动周期CTP邻居节点集的定时器
+				call Timer1.startPeriodic(NEIGHBOUR_PERIOD_MILLI);
+		}
 	}
 
 	event void AMSend.sendDone(message_t * msg, error_t err) {
@@ -98,11 +109,10 @@ implementation {
 			if(btrpkt1 == NULL) {
 				return;
 			}
-			btrpkt1->dstid = sourceid;
-			btrpkt1->sourceid = TOS_NODE_ID;
+			btrpkt1->dstid = (nx_int8_t)sourceid;
+			btrpkt1->sourceid = (nx_int8_t)TOS_NODE_ID;
 			if(call AMSend.send(AM_BROADCAST_ADDR, &pkt, sizeof(NeighbourMsg)) == SUCCESS) {
 				busy = TRUE;
-				dbg("AMInfo","send ACK to %d done.\n", sourceid);
 			}
 		}
 	}
@@ -117,10 +127,10 @@ implementation {
 			}
 		}
 		//如果执行到此处，表明该节点不在邻居集合中
-		neighbourNumIndex ++;
 		neighbourSet[neighbourNumIndex].nodeid = sourceid;
 		neighbourSet[neighbourNumIndex].linkquality = 0.0f;
 		neighbourSet[neighbourNumIndex].recvCount = 0;
+		neighbourNumIndex ++;
 	}
 	
 	void sortNodes(int left, int right){
@@ -167,31 +177,82 @@ implementation {
 			}
 		}
 		sortNodes(0, neighbourNumIndex);
-		dbg("NodesInfo","neighbourSet sorts done.\n");
 	}
 	
+		
+	void convertNX(){			//将邻居集转换为网络类型
+		int i;
+		for(i = 0; i<(MAX_NEIGHBOUR_NUM < neighbourNumIndex ? MAX_NEIGHBOUR_NUM : neighbourNumIndex); i++ ){
+			nx_neighbourSet[i].nodeid = (nx_uint8_t)neighbourSet[i].nodeid;
+			nx_neighbourSet[i].linkquality = (nx_uint8_t)(neighbourSet[i].linkquality*100);
+		}
+	}
+	
+	void sendMessage(){
+		CTPMsg* ctpmsg = (CTPMsg*)call Send.getPayload(&packet, sizeof(CTPMsg));
+		convertNX();	
+		ctpmsg -> neighbourNum = neighbourNumIndex;
+		ctpmsg -> nodeid = (nx_uint8_t)TOS_NODE_ID;
+		ctpmsg -> power = 1000;		//虚拟电压值
+		memcpy(ctpmsg -> neighbourSet, nx_neighbourSet, sizeof(nx_neighbourSet));
+		call Send.send(&packet, sizeof(CTPMsg));
+		busy = TRUE;	
+	}
+
 	event message_t * Receive.receive(message_t * msg, void * payload,uint8_t len) {
 		int i;
 		if(len == sizeof(NeighbourMsg)) {
 			NeighbourMsg * btrpkt = (NeighbourMsg * ) payload;
-			if(btrpkt->dstid == 0xFFFF){	//接到其它节点发的hello包，回ack包
-				dbg("AMInfo","received HELLO, sending ACK to %d...\n",btrpkt->sourceid);
+			if(btrpkt->dstid == 0xFF){	//接到其它节点发的hello包，回ack包
 				ackMsgSend(btrpkt->sourceid);
 			}
 			else if ( (btrpkt->dstid - TOS_NODE_ID) == 0) {	//接到的是自己的回包，计算链路质量，判断邻居资格
 				dbg("AMInfo","received ACK from %d, estimating\n", btrpkt->sourceid);
 				addSet(btrpkt->sourceid);
 				estLinkQuality(btrpkt->sourceid);
-				dbg("Neighbour","\nHAS NEIGHBOURS:");
-				for(i = 0; i<=MAX_NEIGHBOUR_NUM; i++ ){
-					if(neighbourSet[i].linkquality > 0)
-						dbg("Neighbour","%d with linkQ %f\n", neighbourSet[i].nodeid, neighbourSet[i].linkquality);
-				}
+				 dbg("Neighbour","\nHAS NEIGHBOURS:");
+				for(i = 0; i<(MAX_NEIGHBOUR_NUM < neighbourNumIndex ? MAX_NEIGHBOUR_NUM : neighbourNumIndex); i++ )
+					dbg("Neighbour","%d with linkQ %f\n", neighbourSet[i].nodeid, neighbourSet[i].linkquality);
 				dbg("Neighbour","\n");
 			}else{	//其它包，丢弃
-				//dbg("AMInfo","received OTHER MSG, from %d to %d, DISCARDING...\n",btrpkt->sourceid, btrpkt->dstid);
 			}
 		}
 		return msg;
+	}
+
+	event void RadioControl.startDone(error_t err){
+		if(err != SUCCESS){
+			call RadioControl.start();
+		}else{
+			call RoutingControl.start();
+			if(TOS_NODE_ID == 0)
+				call RootControl.setRoot();
+		}
+	}
+
+	event void RadioControl.stopDone(error_t error){
+	}
+
+	event void Send.sendDone(message_t *msg, error_t error){
+		busy = FALSE;
+		dbg("CTPInfo","CTP Send done.\n");
+	}
+
+	event message_t * CTPReceive.receive(message_t *msg, void *payload, uint8_t len){
+		int i;
+		if(len == sizeof(CTPMsg)) {
+			CTPMsg * btrpkt = (CTPMsg * ) payload;
+			dbg("CTPInfo","received CTP from %d which power is %d\n", btrpkt->nodeid, btrpkt->power);
+			dbg("CTPInfo"," has %d neighbours:\n", btrpkt->neighbourNum);
+			for(i = 0;i< btrpkt->neighbourNum;i++ )
+				dbg("CTPInfo"," %d with linkQ:%d \n", btrpkt->neighbourSet[i].nodeid,btrpkt->neighbourSet[i].linkquality);
+			dbg("CTPInfo","\n");
+		}
+		return msg;
+	}
+
+	event void Timer1.fired(){
+		if(!busy)
+			sendMessage();	//CTP发送给基站
 	}
 }
